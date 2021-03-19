@@ -1,4 +1,3 @@
-# Conveyer-Belt-midterm-
 //set variables
 const int en = 10;
 const int in1 = 11;
@@ -38,7 +37,7 @@ void directionControl() //direction function
   {
     digitalWrite(11, HIGH);
     digitalWrite(12, LOW);
-    digitalWrite(LEDG, HIGH);
+    digitalWrite(LEDG, HIGH); //LED green light up
     digitalWrite(LEDR, LOW);  
   }
   
@@ -47,7 +46,7 @@ void directionControl() //direction function
     digitalWrite(11, LOW);
     digitalWrite(12, HIGH);
     digitalWrite(LEDG, LOW);
-    digitalWrite(LEDR, HIGH);
+    digitalWrite(LEDR, HIGH);  //LED red light up
   }
 }
 
